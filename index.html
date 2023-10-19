@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="flex-center">
+    <div id="calculator" class="calculator flex-center">
+        <div id="calc-screen" class="display-screen flex-center"><p class="calculated-display"></p></div>
+        <div id="buttons-container" class="buttons-container flex-center">
+            <div class="digits-container">
+                <div><button id="input1" class="digit-input" onclick="key1()">1</button></div>
+                <div><button id="input2" class="digit-input" onclick="key2()">2</button></div>
+                <div><button id="input3" class="digit-input" onclick="key3()">3</button></div>
+                <div><button id="input4" class="digit-input" onclick="key4()">4</button></div>
+                <div><button id="input5" class="digit-input" onclick="key5()">5</button></div>
+                <div><button id="input6" class="digit-input" onclick="key6()">6</button></div>
+                <div><button id="input7" class="digit-input" onclick="key7()">7</button></div>
+                <div><button id="input8" class="digit-input" onclick="key8()">8</button></div>
+                <div><button id="input9" class="digit-input" onclick="key9()">9</button></div>
+                <div><button id="input0" class="digit-input" onclick="key0()">0</button></div>
+            </div>
+            <div class="operations-container">
+                <div><button id="input+" class="operation-input">+</button></div>
+                <div><button id="input-" class="operation-input">-</button></div>
+                <div><button id="input/" class="operation-input">/</button></div>
+                <div><button id="input*" class="operation-input">*</button></div>
+                <div><button id="input%" class="operation-input">%</button></div>
+                <div><button id="input^" class="operation-input">²</button></div>
+                <div><button id="input-sqrt" class="operation-input">√</button></div>
+                <div><button id="inputC" class="operation-input">C</button></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
